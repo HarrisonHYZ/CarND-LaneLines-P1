@@ -11,7 +11,6 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/grayscale.jpg "Grayscale"
 [pic1]: ./test_images_middle/solidWhiteCurve1.jpg "Grayscale"
 [pic2]: ./test_images_middle/solidWhiteCurve2.jpg "Gaussian blurring"
 [pic3]: ./test_images_middle/solidWhiteCurve3.jpg "Canny edge"
