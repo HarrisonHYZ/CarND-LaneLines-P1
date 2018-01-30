@@ -35,8 +35,6 @@ My pipeline consisted of 5 main steps. Firstly, I converted the images to graysc
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by differentiating the slope values. If the slope is bigger than zero, it is right line. Otherwise, it is a left line. With all the left and right lines and their corresponding points, I, firstly, remove the almost horizontal lines and then optimize the slope lists by removing the ones with big deviation from the average value. Finally, I use the average slope and a average (x,y) to find the intersections to find the upper point and the bottom point for left and right lines.
 
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
-
 ### 2. Identify potential shortcomings with your current pipeline
 
 
