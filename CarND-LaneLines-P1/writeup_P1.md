@@ -38,13 +38,13 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 ### 2. Identify potential shortcomings with your current pipeline
 
 
-One potential shortcoming would be what would happen when the road line is not straight. The current algorithm cannot cover this situation well.
+One potential shortcoming would be when the road line is not straight, the line will shake strongly on the video. The current algorithm cannot cover this situation well.
 
-Another shortcoming is the red line on the original image is not very stable. Will be shaking a little bit all the time.
+Another shortcoming is the red line on the original image is not very stable. Will be shaking a little bit all the time during the whole video.
 
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to use polyfit function in numpy to get the parameters for non-straight lines.
+A possible improvement would be to use polyfit function to get the parameters for non-straight lines. Then I can draw the line which is not only straight, but also any shape.
 
-Another potential improvement could be to optimize the realization methods for the current strategy to make the code more concise.
+Another potential improvement could be to optimize the code realization of all methods for the current strategy to make the code more concise.
